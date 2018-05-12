@@ -36,6 +36,7 @@ $(document).ready(function(){
                 gifImage.attr("data-gif", data[i].images.fixed_width.url);
                 gifImage.attr("data-animate",'false');
                 gifImage.attr("src", data[i].images.fixed_width_still.url);
+                gifImage.attr("data-rating",data[i].rating);
                 gifImage.on("click", function() {
                     console.log('111 ' + $(this).attr('data-animate'));
                     if($(this).attr('data-animate') == 'true'){

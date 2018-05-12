@@ -1,6 +1,14 @@
-#gifs-appear-here {
-    display: flex;
-    flex-flow: row wrap;
-    width: 40px;
-    height: 40px;
+.flex-container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    background-color: steelblue;
 }
